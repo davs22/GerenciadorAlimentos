@@ -1,4 +1,4 @@
-package com.example;
+package com.example.model;
 
 public class ProdutoAlimenticio {
 
@@ -51,7 +51,7 @@ public class ProdutoAlimenticio {
     }
 
     public String exibirInformacoes() {
-        return "Alimento: " + nome + "\nData de fabricação: " + anoFabricacao + "\nClasse: " +
+        return "\nAlimento: " + nome + "\nData de fabricação: " + anoFabricacao + "\nClasse: " +
                 classe + "\nPreço: " + preco;
     }
 
